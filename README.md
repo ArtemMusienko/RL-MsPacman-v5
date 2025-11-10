@@ -9,3 +9,9 @@
 В качества конечного результата выводится *GIF-файл*, на котором отображается работа лучших весов в игре **Pac-Man**.
 
 > Для запуска этого кода необязательно использовать **графические ускорители T4** или выше в **Google Colab**!
+
+<div align="center">
+
+![enter image description here](https://gymnasium.farama.org/v0.29.0/_images/ms_pacman.gif)
+
+</div>
