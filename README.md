@@ -2,15 +2,17 @@
 
 ## RL-MsPacman-v5
 
-В этом коде реализовано **обучение с подкреплением (Reinforcement Learning, RL)**. Обучение с подкреплением (Reinforcement Learning) — это тип машинного обучения, в котором агент обучается принимать решения путем взаимодействия со средой. Агент получает вознаграждение или штраф за свои действия и стремится максимизировать суммарное вознаграждение за долгосрочную перспективу. Ключевые компоненты: агент, среда, действия, состояния и функция вознаграждения. В качестве игры и её версии был выбран такой вариант "**ALE/MsPacman-v5**". 
+[![ru](https://img.shields.io/badge/README_на_русском-2A2C39?style=for-the-badge&logo=github&logoColor=white)](README.ru.md) 
 
-Для демонстрации работы такого подхода были выбраны 2 алгоритма, а именно: *стратегия случайного поиска* и *алгоритм восхождения на вершину*.
+This code implements **Reinforcement Learning (RL)**. Reinforcement Learning is a type of machine learning in which an agent learns to make decisions by interacting with the environment. The agent receives a reward or a fine for his actions and strives to maximize the total reward over the long term. Key components: agent, environment, actions, states, and reward function. The following option was chosen as the game and its version: "**ALE/MsPacman-v5**".
 
-В качества конечного результата выводится *GIF-файл*, на котором отображается работа лучших весов в игре **Pac-Man**.
+To demonstrate this approach, we have chosen two algorithms: *random search strategy* and *hill climbing algorithm*.
 
-> Для запуска этого кода необязательно использовать **графические ускорители T4** или лучше.
+The final result is a *GIF file* that shows the performance of the best weights in the game **Pac-Man**.
 
-<div align="center">
+> This code does not require the use of **T4 graphics accelerators** or better.
+
+<div  align="center">
 
 ![enter image description here](https://gymnasium.farama.org/v0.29.0/_images/ms_pacman.gif)
 
